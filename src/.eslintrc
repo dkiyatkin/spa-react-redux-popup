@@ -1,0 +1,11 @@
+{
+  "env": {
+    "node": false,
+    "browser": true
+  },
+  "rules": {
+    "jsx-quotes": ["error", "prefer-single"],
+    "comma-dangle": 0
+  },
+  "extends": ["standard", "standard-react"]
+}

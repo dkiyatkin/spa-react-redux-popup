@@ -1,0 +1,26 @@
+@import './variables.scss';
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+// globals
+
+html {
+  height: 100%;
+  min-width: $main-min-width + ($main-margin * 2);
+  min-height: $main-min-height + ($main-margin * 2);
+}
+
+body {
+  height: 100%;
+}
+
+#base {
+  display: flex;
+  height: 100%;
+}

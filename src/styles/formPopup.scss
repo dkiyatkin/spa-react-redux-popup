@@ -1,0 +1,22 @@
+.title {
+  h1 {
+    color: #565656;
+    font-size: 42px;
+    text-shadow: 0 2px 0px #eeeeee;
+    padding-top: 80px;
+  }
+}
+
+.form {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 85px;
+}
+
+.checkbox {
+  margin-bottom: 60px;
+  color: #4e4e4e;
+  font-size: 24px;
+}

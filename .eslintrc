@@ -1,0 +1,14 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "node": true,
+    "browser": false
+  },
+  "rules": {
+    "comma-dangle": 0
+  },
+  "extends": "standard",
+  "globals": {
+    "process": true
+  }
+}
